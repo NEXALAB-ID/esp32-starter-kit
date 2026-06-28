@@ -40,6 +40,8 @@
 
 > **MQTT Broker Disclaimer** — These examples use a public MQTT broker (`broker.hivemq.com`) for testing purposes only. Public brokers are not secure — anyone can publish or subscribe to the same topic. For production use, set up your own private broker (e.g., [Mosquitto](https://mosquitto.org/)).
 
+> **WiFi Credentials Warning** — Do not commit your actual WiFi credentials to GitHub. Replace `YOUR_SSID` and `YOUR_PASSWORD` with your credentials locally, and revert them back before pushing.
+
 ---
 
 ## Requirements
