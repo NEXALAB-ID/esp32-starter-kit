@@ -1,3 +1,7 @@
+// WARNING: Do not commit your actual WiFi credentials to GitHub.
+// Replace YOUR_SSID and YOUR_PASSWORD with your credentials locally,
+// and revert them back before pushing.
+
 #include <WiFi.h>
 
 const char* ssid     = "YOUR_SSID";
