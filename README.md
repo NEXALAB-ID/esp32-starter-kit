@@ -34,6 +34,12 @@
 
 ---
 
+## Notes
+
+> **BLE UUID Disclaimer** — The `SERVICE_UUID` and `CHARACTERISTIC_UUID` in `ble_server.ino` are default placeholder values for example purposes only. For production use, generate your own unique UUIDs at [uuidgenerator.net](https://www.uuidgenerator.net/).
+
+---
+
 ## Requirements
 
 - ESP32 board (any variant)
