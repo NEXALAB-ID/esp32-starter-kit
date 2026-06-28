@@ -38,6 +38,8 @@
 
 > **BLE UUID Disclaimer** — The `SERVICE_UUID` and `CHARACTERISTIC_UUID` in `ble_server.ino` are default placeholder values for example purposes only. For production use, generate your own unique UUIDs at [uuidgenerator.net](https://www.uuidgenerator.net/).
 
+> **MQTT Broker Disclaimer** — These examples use a public MQTT broker (`broker.hivemq.com`) for testing purposes only. Public brokers are not secure — anyone can publish or subscribe to the same topic. For production use, set up your own private broker (e.g., [Mosquitto](https://mosquitto.org/)).
+
 ---
 
 ## Requirements
