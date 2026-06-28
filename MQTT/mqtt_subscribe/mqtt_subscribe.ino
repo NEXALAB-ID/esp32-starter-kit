@@ -1,3 +1,7 @@
+// NOTE: This example uses a public MQTT broker (broker.hivemq.com) for testing purposes only.
+// Public brokers are not secure — anyone can publish or subscribe to the same topic.
+// For production use, set up your own private broker (e.g., Mosquitto).
+
 #include <WiFi.h>
 #include <PubSubClient.h>
 
