@@ -1,6 +1,8 @@
-// NOTE: This example uses a public MQTT broker (broker.hivemq.com) for testing purposes only.
-// Public brokers are not secure — anyone can publish or subscribe to the same topic.
-// For production use, set up your own private broker (e.g., Mosquitto).
+// NOTE: This example is for testing purposes only.
+// - Uses a public MQTT broker (broker.hivemq.com). Anyone can publish or subscribe to the same topic.
+//   For production, use your own private broker (e.g., Mosquitto).
+// - Do not commit your actual WiFi credentials to GitHub.
+//   Replace YOUR_SSID and YOUR_PASSWORD locally, and revert before pushing.
 
 #include <WiFi.h>
 #include <PubSubClient.h>
